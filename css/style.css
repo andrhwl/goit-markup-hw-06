@@ -833,7 +833,7 @@ body {
 .input-icon-name {
     position: absolute;
     left: 16px;
-    top: 12%;
+    top: 15%;
     transform: translateY(-50%);
 }
 
@@ -860,4 +860,24 @@ body {
 
 .modal-comm::placeholder {
     font-size: 12px;
+}
+
+.check-text {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        color: #757575;
+        display: flex;
+        align-items: center;
+}
+
+.check-text::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+    display: block;
+    margin-right: 8px;
 }
