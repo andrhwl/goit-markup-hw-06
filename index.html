@@ -409,13 +409,48 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="hero-close-btn" width="8" height="8">
                     <use href="./image/icon.svg#icon-close-black"></use>
                 </svg>
             </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <label for="" class="modal-label-name">
+                    <span class="modal-label-text">Name</span>
+                    <span class="input-icon-box">
+                        <input type="text" class="modal-input" required>
+                        <svg viewBox="0 0 32 32" width="12" height="12" class="input-icon">
+                            <use href=""></use>
+                        </svg>
+                    </span>
+                </label>
+            <label for="" class="modal-label">
+                <span class="modal-label-text">Phone</span>
+                <span class="input-icon-box">
+                    <input type="text" class="modal-input" required>
+                    <svg viewBox="0 0 32 32" width="12" height="12" class="input-icon">
+                        <use href=""></use>
+                    </svg>
+                </span>
+            </label>
+            <label for="" class="modal-label">
+                <span class="modal-label-text">Email</span>
+                <span class="input-icon-box">
+                    <input type="text" class="modal-input" required>
+                    <svg viewBox="0 0 32 32" width="12" height="12" class="input-icon">
+                        <use href=""></use>
+                    </svg>
+                </span>
+            </label>
+            <label for="" class="modal-label">
+                <span class="modal-label-text">Comment</span>
+                <textarea class="modal-comment" name="comment" id="" cols="30" rows="5" placeholder="Text input"></textarea>
+            </label>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
