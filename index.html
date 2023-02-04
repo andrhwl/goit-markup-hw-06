@@ -407,9 +407,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-form-box">
+                <p class="subscribe-form-title">Subscribe</p>
+                <form class="subscribe-form">
+                    <label class="subscribe-label">
+                        <input type="text" class="subscribe-input" placeholder="E-mail" required>
+                    </label>
+                    <button type="submit" class="btn-subscribe">
+                        Subscribe
+                        <span>
+                            <svg class="subscribe-svg" width="24" height="24">
+                                <use href="./image/icon.svg#icon-tg"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="hero-close-btn" width="8" height="8">
@@ -460,11 +476,17 @@
                         name="privacy" 
                         id="privacy" 
                         value="tru" 
-                        class="input-check">
-                        <label for="privacy" class="check-text">I accept the terms and conditions of the Privacy Policy</label>
+                        class="input-check visual-hidden">
+                        <label for="privacy" class="check-text"> 
+                          <span>I accept the terms and conditions of the
+                            <a href="" class="link-privacy">Privacy Policy</a>
+                          </span> 
+                        
+                        </label>
                     </div>
                 </div>
-                <button type="submit">Send</button>
+                    <button type="submit" class="modal-send"> <span class="modal-send-text">Send</span>
+                    </button>
             </form>
         </div>
     </div>
