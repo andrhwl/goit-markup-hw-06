@@ -765,6 +765,7 @@ body {
     border-radius: 50%;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .modal-close:hover,
@@ -816,6 +817,9 @@ body {
 }
 
 .modal-field {
+}
+
+.user-text {
 }
 
 .input-text {
@@ -873,6 +877,7 @@ body {
         display: flex;
         align-items: center;
         margin-bottom: 24px;
+        margin-top: 16px;
 }
 
 .check-text::before {
